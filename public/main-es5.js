@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<navbar></navbar>\r\n<router-outlet></router-outlet>\r\n";
+    __webpack_exports__["default"] = "<navbar></navbar>\n<router-outlet></router-outlet>\n";
     /***/
   },
 
@@ -71,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"col-lg-9 col-md-9 col-sm-9\">\r\n  <h4>Dodaj post:</h4>\r\n  <form (ngSubmit)=\"save()\">\r\n    <div class=\"form-group\">\r\n      <label class=\"col-form-label\">Tytuł:</label>\r\n      <input name=\"title\" type=\"text\" class=\"form-control\" placeholder=\"Wprowadź tytuł\" [(ngModel)]=\"post.title\">\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n      <label class=\"col-form-label\">Adres obrazu:</label>\r\n      <input name=\"url\" type=\"text\" class=\"form-control\" placeholder=\"URL\" [(ngModel)]=\"post.url\">\r\n    </div>\r\n\r\n    <div class=\"form-group\">\r\n      <label class=\"col-form-label\">Treść:</label>\r\n      <textarea name=\"content\" type=\"text\" class=\"form-control\" placeholder=\"Treść\" [(ngModel)]=\"post.content\" rows=\"10\"></textarea>\r\n    </div>\r\n\r\n    <div class=\"form-group button\">\r\n      <button type=\"submit\" class=\"btn btn-info\">Dodaj</button>\r\n    </div>\r\n  </form>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<div class=\"col-lg-9 col-md-9 col-sm-9\">\n  <h4>Dodaj post:</h4>\n  <form (ngSubmit)=\"save()\">\n    <div class=\"form-group\">\n      <label class=\"col-form-label\">Tytuł:</label>\n      <input name=\"title\" type=\"text\" class=\"form-control\" placeholder=\"Wprowadź tytuł\" [(ngModel)]=\"post.title\">\n    </div>\n\n    <div class=\"form-group\">\n      <label class=\"col-form-label\">Adres obrazu:</label>\n      <input name=\"url\" type=\"text\" class=\"form-control\" placeholder=\"URL\" [(ngModel)]=\"post.url\">\n    </div>\n\n    <div class=\"form-group\">\n      <label class=\"col-form-label\">Treść:</label>\n      <textarea name=\"content\" type=\"text\" class=\"form-control\" placeholder=\"Treść\" [(ngModel)]=\"post.content\" rows=\"10\"></textarea>\n    </div>\n\n    <div class=\"form-group button\">\n      <button type=\"submit\" class=\"btn btn-info\">Dodaj</button>\n    </div>\n  </form>\n</div>\n";
     /***/
   },
 
@@ -91,7 +91,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<search-bar (name)=\"getName($event)\">\r\n</search-bar>\r\n<blog [filterText]=\"filterText\">\r\n</blog>\r\n";
+    __webpack_exports__["default"] = "<search-bar (name)=\"getName($event)\">\n</search-bar>\n<blog [filterText]=\"filterText\">\n</blog>\n";
     /***/
   },
 
@@ -111,7 +111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div style=\"text-align: center\">\r\n  <div class=\"detail\" style=\"width: 50rem; display: inline-block\">\r\n    <img [src]=\"image\" class=\"detail-image\">\r\n    <div class=\"detail-body\">\r\n      <h4 class=\"detail-title\" style=\"color:cornflowerblue\">{{ title }}</h4>\r\n      <p class=\"detail-text\" style=\"font-family: 'Monaco'\">{{ text }}</p>\r\n    </div>\r\n    <div class=\"detail-body\">\r\n      <button class=\"btn btn-outline-info\" [routerLink]=\"['/blog']\">Back to blog</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<div style=\"text-align: center\">\n  <div class=\"detail\" style=\"width: 50rem; display: inline-block\">\n    <img [src]=\"image\" class=\"detail-image\">\n    <div class=\"detail-body\">\n      <h4 class=\"detail-title\" style=\"color:cornflowerblue\">{{ title }}</h4>\n      <p class=\"detail-text\" style=\"font-family: 'Monaco'\">{{ text }}</p>\n    </div>\n    <div class=\"detail-body\">\n      <button class=\"btn btn-outline-info\" [routerLink]=\"['/blog']\">Back to blog</button>\n    </div>\n  </div>\n</div>\n";
     /***/
   },
 
@@ -131,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<img [src]=\"image\" class=\"card-img-top\">\r\n";
+    __webpack_exports__["default"] = "<img [src]=\"image\" class=\"card-img-top\">\n";
     /***/
   },
 
@@ -151,7 +151,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<h4>\r\n  {{ title }}\r\n</h4>\r\n<a [routerLink]=\"['/blog/detail/',id]\">\r\n  {{ text | summary:35}}\r\n</a>\r\n";
+    __webpack_exports__["default"] = "<h4>\n  {{ title }}\n</h4>\n<a [routerLink]=\"['/blog/detail/',id]\">\n  {{ text | summary:35}}\n</a>\n";
     /***/
   },
 
@@ -171,7 +171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\r\n  <blog-item-image class=\"card-img-top\" [image]=\"image\"></blog-item-image>\r\n  <div class=\"card-body\">\r\n    <app-blog-item-text class=\"card-text\" [title]=\"title\" [id]=\"id\" [text]=\"text\"></app-blog-item-text>\r\n  </div>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<div>\n  <blog-item-image class=\"card-img-top\" [image]=\"image\"></blog-item-image>\n  <div class=\"card-body\">\n    <app-blog-item-text class=\"card-text\" [title]=\"title\" [id]=\"id\" [text]=\"text\"></app-blog-item-text>\n  </div>\n</div>\n";
     /***/
   },
 
@@ -191,7 +191,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<selectize></selectize>\r\n<div id=\"logo\">\r\n  <img src=\"https://seeklogo.com/images/F/ferrari-logo-7935CF173C-seeklogo.com.png\">\r\n</div>\r\n<div *ngFor=\"let item of items$ | filter:filterText\">\r\n  <div class=\"blog-items\">\r\n    <blog-item [id]=\"item.id\" [image]=\"item.url\" [text]=\"item.content\">\r\n    </blog-item>\r\n  </div>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<selectize></selectize>\n<div id=\"logo\">\n  <img src=\"https://seeklogo.com/images/F/ferrari-logo-7935CF173C-seeklogo.com.png\">\n</div>\n<div *ngFor=\"let item of items$ | filter:filterText\">\n  <div class=\"blog-items\">\n    <blog-item [id]=\"item.id\" [image]=\"item.url\" [text]=\"item.content\">\n    </blog-item>\n  </div>\n</div>\n";
     /***/
   },
 
@@ -211,7 +211,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<p>contact works!</p>\r\n";
+    __webpack_exports__["default"] = "<p>contact works!</p>\n";
     /***/
   },
 
@@ -231,7 +231,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\" />\r\n  <title>Marcin Niemiec</title>\r\n</head>\r\n<body>\r\n<div id=\"nav\" class=\"navbar2\"></div>\r\n\r\n<div class=\"row\">\r\n  <div id=\"lorem\" class=\"col-9 col-sm-9 col-md-9 col-lg-9\">\r\n\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n    <p>\r\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\r\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\r\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\r\n      doloremque, vel vitae incidunt similique.\r\n    </p>\r\n  </div>\r\n  <div class=\"col-3 col-sm-3 col-md-3 col-lg-3\">\r\n    <h3>\r\n      Szybki kontakt\r\n    </h3>\r\n    <ul class=\"nav flex-column\">\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link active\" href=\"#\"\r\n        ><i class=\"fa fa-facebook-official\" aria-hidden=\"true\"></i\r\n        >Facebook</a\r\n        >\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link active\" href=\"#\"\r\n        ><i class=\"fa fa-instagram-official\"></i>Instagram</a\r\n        >\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link active\" href=\"#\"\r\n        ><i class=\"fa fa-envelope-square\"></i>Email</a\r\n        >\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"scroll\" style=\"padding-left: 5%; padding-top: 10%; position: absolute\">\r\n  <button class=\"btn btn-success\">\r\n    <i class=\"fa fa-arrow-circle-up\" aria-hidden=\"true\"></i>Do góry\r\n  </button>\r\n</div>\r\n\r\n<div id=\"content-wrap\" align=\"center\">\r\n  <footer class=\"footer-text\">\r\n    Copyrights © Marcin Niemiec 2020\r\n  </footer>\r\n</div>\r\n</body>\r\n</html>\r\n";
+    __webpack_exports__["default"] = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <title>Marcin Niemiec</title>\n</head>\n<body>\n<div id=\"nav\" class=\"navbar2\"></div>\n\n<div class=\"row\">\n  <div id=\"lorem\" class=\"col-9 col-sm-9 col-md-9 col-lg-9\">\n\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n  </div>\n  <div class=\"col-3 col-sm-3 col-md-3 col-lg-3\">\n    <h3>\n      Szybki kontakt\n    </h3>\n    <ul class=\"nav flex-column\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-facebook-official\" aria-hidden=\"true\"></i\n        >Facebook</a\n        >\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-instagram-official\"></i>Instagram</a\n        >\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-envelope-square\"></i>Email</a\n        >\n      </li>\n    </ul>\n  </div>\n</div>\n\n<div class=\"scroll\" style=\"padding-left: 5%; padding-top: 10%; position: absolute\">\n  <button class=\"btn btn-success\">\n    <i class=\"fa fa-arrow-circle-up\" aria-hidden=\"true\"></i>Do góry\n  </button>\n</div>\n\n<div id=\"content-wrap\" align=\"center\">\n  <footer class=\"footer-text\">\n    Copyrights © Marcin Niemiec 2020\n  </footer>\n</div>\n</body>\n</html>\n";
     /***/
   },
 
@@ -251,7 +251,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\r\n  <form action=\"post\" autocomplete=\"off\" method=\"POST\">\r\n    <div class=\"input-group\">\r\n      <input [(ngModel)]=\"credentials.login\" type=\"text\" class=\"form-control\"\r\n             name=\"username\" placeholder=\"Nazwa\" title=\"Wprowadź login\">\r\n    </div>\r\n\r\n    <div class=\"input-group\">\r\n      <input [(ngModel)]=\"credentials.password\" type=\"password\" class=\"form-control\"\r\n             name=\"password\" placeholder=\"Hasło\" title=\"Wprowadź hasło\">\r\n    </div>\r\n    <div id=\"wrapper\">\r\n      <button (click)=\"signIn()\" class=\"btn btn-lg btn-pink btn-block\" type=\"submit\" title=\"Przycisk zaloguj\">\r\n        Zaloguj\r\n      </button>\r\n    </div>\r\n  </form>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\n  <form action=\"post\" autocomplete=\"off\" method=\"POST\">\n    <div class=\"input-group\">\n      <input [(ngModel)]=\"credentials.login\" type=\"text\" class=\"form-control\"\n             name=\"username\" placeholder=\"Nazwa\" title=\"Wprowadź login\">\n    </div>\n\n    <div class=\"input-group\">\n      <input [(ngModel)]=\"credentials.password\" type=\"password\" class=\"form-control\"\n             name=\"password\" placeholder=\"Hasło\" title=\"Wprowadź hasło\">\n    </div>\n    <div id=\"wrapper\">\n      <button (click)=\"signIn()\" class=\"btn btn-lg btn-pink btn-block\" type=\"submit\" title=\"Przycisk zaloguj\">\n        Zaloguj\n      </button>\n    </div>\n  </form>\n</div>\n";
     /***/
   },
 
@@ -271,7 +271,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<input #input type=\"text\" placeholder=\"Wyszukaj post:\">\r\n\r\n<ul>\r\n  <div [className]=\"'selector'\">\r\n    <li *ngFor=\"let p of posts$\">\r\n      <a href=\"#\" [routerLink]=\"['/blog/detail/', p.id]\"> {{ p.text }}</a></li>\r\n  </div>\r\n\r\n</ul>\r\n";
+    __webpack_exports__["default"] = "<input #input type=\"text\" placeholder=\"Wyszukaj post:\">\n\n<ul>\n  <div [className]=\"'selector'\">\n    <li *ngFor=\"let p of posts$\">\n      <a href=\"#\" [routerLink]=\"['/blog/detail/', p.id]\"> {{ p.text }}</a></li>\n  </div>\n\n</ul>\n";
     /***/
   },
 
@@ -291,7 +291,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<section class=\"signup\">\r\n  <h1 class=\"entry-title\"><span>Zarejestruj się</span></h1>\r\n  <hr>\r\n    <form class=\"form-horizontal\" method=\"post\" name=\"signup\" id=\"signup\">\r\n      <div class=\"form-group\">\r\n        <label class=\"control-label col-sm-3\">Email<span class=\"text-danger\">*</span></label>\r\n        <div class=\"col-md-8 col-sm-9\">\r\n          <div class=\"input-group\">\r\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-envelope\"></i></span>\r\n            <input type=\"email\" class=\"form-control\" name=\"emailid\" id=\"emailid\" placeholder=\"Podaj swój email\"\r\n                   value=\"\" [(ngModel)]=\"credentials.email\">\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label class=\"control-label col-sm-3\">Ustaw hasło<span class=\"text-danger\">*</span></label>\r\n        <div class=\"col-md-5 col-sm-8\">\r\n          <div class=\"input-group\">\r\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\r\n            <input type=\"password\" class=\"form-control\" name=\"password\" id=\"password\"\r\n                   placeholder=\"Wpisz hasło (5-15 znaków)\" value=\"\" [(ngModel)]=\"credentials.password\">\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label class=\"control-label col-sm-3\">Potwierdź hasło <span class=\"text-danger\">*</span></label>\r\n        <div class=\"col-md-5 col-sm-8\">\r\n          <div class=\"input-group\">\r\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\r\n            <input type=\"password\" class=\"form-control\" name=\"cpassword\" id=\"cpassword\"\r\n                   placeholder=\"Potwierdź hasło\" value=\"\">\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <label class=\"control-label col-sm-3\">Podaj imię <span class=\"text-danger\">*</span></label>\r\n        <div class=\"col-md-8 col-sm-9\">\r\n          <input type=\"text\" class=\"form-control\" name=\"mem_name\" id=\"mem_name\" placeholder=\"Wpisz imię\" value=\"\"\r\n                 [(ngModel)]=\"credentials.name\">\r\n        </div>\r\n      </div>\r\n      <div class=\"form-group\">\r\n        <div class=\"col-xs-offset-3 col-xs-10\">\r\n          <button (click)=\"create()\" name=\"Submit\" type=\"submit\" class=\"btn btn-primary\">Zarejestruj\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </form>\r\n</section>\r\n";
+    __webpack_exports__["default"] = "<section class=\"signup\">\n  <h1 class=\"entry-title\"><span>Zarejestruj się</span></h1>\n  <hr>\n    <form class=\"form-horizontal\" method=\"post\" name=\"signup\" id=\"signup\">\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Email<span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-8 col-sm-9\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-envelope\"></i></span>\n            <input type=\"email\" class=\"form-control\" name=\"emailid\" id=\"emailid\" placeholder=\"Podaj swój email\"\n                   value=\"\" [(ngModel)]=\"credentials.email\">\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Ustaw hasło<span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-5 col-sm-8\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n            <input type=\"password\" class=\"form-control\" name=\"password\" id=\"password\"\n                   placeholder=\"Wpisz hasło (5-15 znaków)\" value=\"\" [(ngModel)]=\"credentials.password\">\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Potwierdź hasło <span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-5 col-sm-8\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n            <input type=\"password\" class=\"form-control\" name=\"cpassword\" id=\"cpassword\"\n                   placeholder=\"Potwierdź hasło\" value=\"\">\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Podaj imię <span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-8 col-sm-9\">\n          <input type=\"text\" class=\"form-control\" name=\"mem_name\" id=\"mem_name\" placeholder=\"Wpisz imię\" value=\"\"\n                 [(ngModel)]=\"credentials.name\">\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <div class=\"col-xs-offset-3 col-xs-10\">\n          <button (click)=\"create()\" name=\"Submit\" type=\"submit\" class=\"btn btn-primary\">Zarejestruj\n          </button>\n        </div>\n      </div>\n    </form>\n</section>\n";
     /***/
   },
 
@@ -311,7 +311,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<nav>\r\n  <ul class=\"nav justify-content-center\">\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link active\" [routerLink]=\"['/']\">Home</a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link active\" [routerLink]=\"['/blog']\">Blog</a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link active\" [routerLink]=\"['/contact']\">Contact</a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link active\" [routerLink]=\"['/add-post']\">Add post</a>\r\n    </li>\r\n    <a class=\"nav-link\" routerLink=\"/login\" *ngIf=\"!authService.currentUser\">Zaloguj</a>\r\n    <button class=\"nav-link\" (click)=\"logOut()\" *ngIf=\"authService.currentUser\">Wyloguj</button>\r\n    <a class=\"nav-link\" routerLink=\"/signup\" *ngIf=\"!authService.currentUser\">Zarejestruj</a>\r\n\r\n    <!--    <li class=\"nav-item\">-->\r\n<!--      <a class=\"nav-link active\" [routerLink]=\"['/login']\">Login</a>-->\r\n<!--    </li>-->\r\n<!--    <li class=\"nav-item\">-->\r\n<!--      <a class=\"nav-link active\" [routerLink]=\"['/signup']\">Signup</a>-->\r\n<!--    </li>-->\r\n<!--    <li>-->\r\n<!--      <button (click)=\"logOut()\" class=\"dropdown-item\" style=\"justify-content: center; background-color: grey\">Logout</button>-->\r\n<!--    </li>-->\r\n  </ul>\r\n</nav>\r\n\r\n";
+    __webpack_exports__["default"] = "<nav>\n  <ul class=\"nav justify-content-center\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/']\">Home</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/blog']\">Blog</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/contact']\">Contact</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/add-post']\">Add post</a>\n    </li>\n    <a class=\"nav-link\" routerLink=\"/login\" *ngIf=\"!authService.currentUser\">Zaloguj</a>\n    <button class=\"nav-link\" (click)=\"logOut()\" *ngIf=\"authService.currentUser\">Wyloguj</button>\n    <a class=\"nav-link\" routerLink=\"/signup\" *ngIf=\"!authService.currentUser\">Zarejestruj</a>\n\n    <!--    <li class=\"nav-item\">-->\n<!--      <a class=\"nav-link active\" [routerLink]=\"['/login']\">Login</a>-->\n<!--    </li>-->\n<!--    <li class=\"nav-item\">-->\n<!--      <a class=\"nav-link active\" [routerLink]=\"['/signup']\">Signup</a>-->\n<!--    </li>-->\n<!--    <li>-->\n<!--      <button (click)=\"logOut()\" class=\"dropdown-item\" style=\"justify-content: center; background-color: grey\">Logout</button>-->\n<!--    </li>-->\n  </ul>\n</nav>\n\n";
     /***/
   },
 
@@ -331,7 +331,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div [className]=\"'search'\">\r\n  <input [(ngModel)]=\"filterText\" (ngModelChange)=\"sendFilter()\"\r\n         placeholder=\"Podaj id:\" type=\"search\" class=\"form-control\" textFormat>\r\n</div>\r\n\r\n";
+    __webpack_exports__["default"] = "<div [className]=\"'search'\">\n  <input [(ngModel)]=\"filterText\" (ngModelChange)=\"sendFilter()\"\n         placeholder=\"Podaj id:\" type=\"search\" class=\"form-control\" textFormat>\n</div>\n\n";
     /***/
   },
 
@@ -1066,7 +1066,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */";
     /***/
   },
 
@@ -1335,7 +1335,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvYWRkLXBvc3QvYWRkLXBvc3QuY29tcG9uZW50LnNjc3MifQ== */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWRkLXBvc3QvYWRkLXBvc3QuY29tcG9uZW50LnNjc3MifQ== */";
     /***/
   },
 
@@ -1449,7 +1449,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1ob21lL2Jsb2ctaG9tZS5jb21wb25lbnQuc2NzcyJ9 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1ob21lL2Jsb2ctaG9tZS5jb21wb25lbnQuc2NzcyJ9 */";
     /***/
   },
 
@@ -1531,7 +1531,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "img {\n  width: 75%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0tZGV0YWlscy9DOlxcVXNlcnNcXEFkbWluXFxEZXNrdG9wXFwxXFxUQUlfTGFiXzVcXGJsb2dcXGFwaS8uLlxcc3JjXFxhcHBcXGNvbXBvbmVudHNcXGJsb2ctaXRlbS1kZXRhaWxzXFxibG9nLWl0ZW0tZGV0YWlscy5jb21wb25lbnQuc2NzcyIsIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0tZGV0YWlscy9ibG9nLWl0ZW0tZGV0YWlscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFVBQUE7QUNDRiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1pdGVtLWRldGFpbHMvYmxvZy1pdGVtLWRldGFpbHMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWd7XHJcbiAgd2lkdGg6NzUlO1xyXG59XHJcbiIsImltZyB7XG4gIHdpZHRoOiA3NSU7XG59Il19 */";
+    __webpack_exports__["default"] = "img {\n  width: 75%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0tZGV0YWlscy9ibG9nLWl0ZW0tZGV0YWlscy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0tZGV0YWlscy9ibG9nLWl0ZW0tZGV0YWlscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFVBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1pdGVtLWRldGFpbHMvYmxvZy1pdGVtLWRldGFpbHMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWd7XG4gIHdpZHRoOjc1JTtcbn1cbiIsImltZyB7XG4gIHdpZHRoOiA3NSU7XG59Il19 */";
     /***/
   },
 
@@ -1646,7 +1646,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "img {\n  width: 75%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0taW1hZ2UvQzpcXFVzZXJzXFxBZG1pblxcRGVza3RvcFxcMVxcVEFJX0xhYl81XFxibG9nXFxhcGkvLi5cXHNyY1xcYXBwXFxjb21wb25lbnRzXFxibG9nLWl0ZW0taW1hZ2VcXGJsb2ctaXRlbS1pbWFnZS5jb21wb25lbnQuc2NzcyIsIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0taW1hZ2UvYmxvZy1pdGVtLWltYWdlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsVUFBQTtBQ0NGIiwiZmlsZSI6Ii4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0taW1hZ2UvYmxvZy1pdGVtLWltYWdlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1ne1xyXG4gIHdpZHRoOiA3NSU7XHJcbn1cclxuIiwiaW1nIHtcbiAgd2lkdGg6IDc1JTtcbn0iXX0= */";
+    __webpack_exports__["default"] = "img {\n  width: 75%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9ibG9nLWl0ZW0taW1hZ2UvYmxvZy1pdGVtLWltYWdlLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2Jsb2ctaXRlbS1pbWFnZS9ibG9nLWl0ZW0taW1hZ2UuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Jsb2ctaXRlbS1pbWFnZS9ibG9nLWl0ZW0taW1hZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWd7XG4gIHdpZHRoOiA3NSU7XG59XG4iLCJpbWcge1xuICB3aWR0aDogNzUlO1xufSJdfQ== */";
     /***/
   },
 
@@ -1724,7 +1724,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1pdGVtLXRleHQvYmxvZy1pdGVtLXRleHQuY29tcG9uZW50LnNjc3MifQ== */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1pdGVtLXRleHQvYmxvZy1pdGVtLXRleHQuY29tcG9uZW50LnNjc3MifQ== */";
     /***/
   },
 
@@ -1804,7 +1804,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1pdGVtL2Jsb2ctaXRlbS5jb21wb25lbnQuc2NzcyJ9 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy1pdGVtL2Jsb2ctaXRlbS5jb21wb25lbnQuc2NzcyJ9 */";
     /***/
   },
 
@@ -1885,7 +1885,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".blog-items {\n  text-align: center;\n}\n\n#logo {\n  text-align: center;\n  padding-bottom: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nL0M6XFxVc2Vyc1xcQWRtaW5cXERlc2t0b3BcXDFcXFRBSV9MYWJfNVxcYmxvZ1xcYXBpLy4uXFxzcmNcXGFwcFxcY29tcG9uZW50c1xcYmxvZ1xcYmxvZy5jb21wb25lbnQuc2NzcyIsIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nL2Jsb2cuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtBQ0NGOztBRENBO0VBQ0Usa0JBQUE7RUFDQSxvQkFBQTtBQ0VGIiwiZmlsZSI6Ii4uL3NyYy9hcHAvY29tcG9uZW50cy9ibG9nL2Jsb2cuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYmxvZy1pdGVtc3tcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuI2xvZ297XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xyXG59XHJcblxyXG4iLCIuYmxvZy1pdGVtcyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI2xvZ28ge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".blog-items {\n  text-align: center;\n}\n\n#logo {\n  text-align: center;\n  padding-bottom: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9ibG9nL2Jsb2cuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy9ibG9nLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQUE7QUNDRjs7QURDQTtFQUNFLGtCQUFBO0VBQ0Esb0JBQUE7QUNFRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy9ibG9nLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJsb2ctaXRlbXN7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbiNsb2dve1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xufVxuXG4iLCIuYmxvZy1pdGVtcyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI2xvZ28ge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xufSJdfQ== */";
     /***/
   },
 
@@ -1988,7 +1988,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5zY3NzIn0= */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5zY3NzIn0= */";
     /***/
   },
 
@@ -2065,7 +2065,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#lorem {\n  padding-top: 5%;\n  padding-left: 40px;\n}\n\n#lorem p {\n  padding-bottom: 3%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL0M6XFxVc2Vyc1xcQWRtaW5cXERlc2t0b3BcXDFcXFRBSV9MYWJfNVxcYmxvZ1xcYXBpLy4uXFxzcmNcXGFwcFxcY29tcG9uZW50c1xcaG9tZVxcaG9tZS5jb21wb25lbnQuc2NzcyIsIi4uL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFBO0VBQ0Esa0JBQUE7QUNDRjs7QURDQTtFQUNFLGtCQUFBO0FDRUYiLCJmaWxlIjoiLi4vc3JjL2FwcC9jb21wb25lbnRzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNsb3JlbXtcclxuICBwYWRkaW5nLXRvcDogNSU7XHJcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xyXG59XHJcbiNsb3JlbSBwe1xyXG4gIHBhZGRpbmctYm90dG9tOiAzJTtcclxufVxyXG4iLCIjbG9yZW0ge1xuICBwYWRkaW5nLXRvcDogNSU7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuI2xvcmVtIHAge1xuICBwYWRkaW5nLWJvdHRvbTogMyU7XG59Il19 */";
+    __webpack_exports__["default"] = "#lorem {\n  padding-top: 5%;\n  padding-left: 40px;\n}\n\n#lorem p {\n  padding-bottom: 3%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZUFBQTtFQUNBLGtCQUFBO0FDQ0Y7O0FEQ0E7RUFDRSxrQkFBQTtBQ0VGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbG9yZW17XG4gIHBhZGRpbmctdG9wOiA1JTtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xufVxuI2xvcmVtIHB7XG4gIHBhZGRpbmctYm90dG9tOiAzJTtcbn1cbiIsIiNsb3JlbSB7XG4gIHBhZGRpbmctdG9wOiA1JTtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xufVxuXG4jbG9yZW0gcCB7XG4gIHBhZGRpbmctYm90dG9tOiAzJTtcbn0iXX0= */";
     /***/
   },
 
@@ -2142,7 +2142,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "button {\n  background-color: lightskyblue;\n  width: 40%;\n}\n\n.loginItems {\n  text-align: center;\n  align-content: center;\n  align-items: center;\n  alignment: center;\n}\n\n.container {\n  padding-top: 30px;\n  text-align: center;\n  width: 70%;\n}\n\n.container .input-group {\n  padding: 10px;\n}\n\n#wrapper {\n  display: flex;\n  justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvY29tcG9uZW50cy9sb2dpbi9DOlxcVXNlcnNcXEFkbWluXFxEZXNrdG9wXFwxXFxUQUlfTGFiXzVcXGJsb2dcXGFwaS8uLlxcc3JjXFxhcHBcXGNvbXBvbmVudHNcXGxvZ2luXFxsb2dpbi5jb21wb25lbnQuc2NzcyIsIi4uL3NyYy9hcHAvY29tcG9uZW50cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDhCQUFBO0VBQ0EsVUFBQTtBQ0NGOztBREVBO0VBQ0Usa0JBQUE7RUFDQSxxQkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUNDRjs7QURDQTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxVQUFBO0FDRUY7O0FEREU7RUFDRSxhQUFBO0FDR0o7O0FEQUU7RUFDRSxhQUFBO0VBQ0EsdUJBQUE7QUNHSiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJidXR0b257XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xyXG4gIHdpZHRoOiA0MCU7XHJcblxyXG59XHJcbi5sb2dpbkl0ZW1ze1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICBhbGlnbm1lbnQ6IGNlbnRlcjtcclxufVxyXG4uY29udGFpbmVye1xyXG4gIHBhZGRpbmctdG9wOiAzMHB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB3aWR0aDo3MCU7XHJcbiAgLmlucHV0LWdyb3Vwe1xyXG4gICAgcGFkZGluZzogMTBweDtcclxuICB9XHJcbn1cclxuICAjd3JhcHBlciB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuIiwiYnV0dG9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xuICB3aWR0aDogNDAlO1xufVxuXG4ubG9naW5JdGVtcyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBhbGlnbm1lbnQ6IGNlbnRlcjtcbn1cblxuLmNvbnRhaW5lciB7XG4gIHBhZGRpbmctdG9wOiAzMHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHdpZHRoOiA3MCU7XG59XG4uY29udGFpbmVyIC5pbnB1dC1ncm91cCB7XG4gIHBhZGRpbmc6IDEwcHg7XG59XG5cbiN3cmFwcGVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59Il19 */";
+    __webpack_exports__["default"] = "button {\n  background-color: lightskyblue;\n  width: 40%;\n}\n\n.loginItems {\n  text-align: center;\n  align-content: center;\n  align-items: center;\n  alignment: center;\n}\n\n.container {\n  padding-top: 30px;\n  text-align: center;\n  width: 70%;\n}\n\n.container .input-group {\n  padding: 10px;\n}\n\n#wrapper {\n  display: flex;\n  justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDhCQUFBO0VBQ0EsVUFBQTtBQ0NGOztBREVBO0VBQ0Usa0JBQUE7RUFDQSxxQkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUNDRjs7QURDQTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxVQUFBO0FDRUY7O0FEREU7RUFDRSxhQUFBO0FDR0o7O0FEQUU7RUFDRSxhQUFBO0VBQ0EsdUJBQUE7QUNHSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJidXR0b257XG4gIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0c2t5Ymx1ZTtcbiAgd2lkdGg6IDQwJTtcblxufVxuLmxvZ2luSXRlbXN7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBhbGlnbm1lbnQ6IGNlbnRlcjtcbn1cbi5jb250YWluZXJ7XG4gIHBhZGRpbmctdG9wOiAzMHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHdpZHRoOjcwJTtcbiAgLmlucHV0LWdyb3Vwe1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gIH1cbn1cbiAgI3dyYXBwZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIH1cblxuIiwiYnV0dG9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xuICB3aWR0aDogNDAlO1xufVxuXG4ubG9naW5JdGVtcyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBhbGlnbm1lbnQ6IGNlbnRlcjtcbn1cblxuLmNvbnRhaW5lciB7XG4gIHBhZGRpbmctdG9wOiAzMHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHdpZHRoOiA3MCU7XG59XG4uY29udGFpbmVyIC5pbnB1dC1ncm91cCB7XG4gIHBhZGRpbmc6IDEwcHg7XG59XG5cbiN3cmFwcGVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59Il19 */";
     /***/
   },
 
@@ -2265,7 +2265,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".selector {\n  align-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvY29tcG9uZW50cy9zZWxlY3RpemUvQzpcXFVzZXJzXFxBZG1pblxcRGVza3RvcFxcMVxcVEFJX0xhYl81XFxibG9nXFxhcGkvLi5cXHNyY1xcYXBwXFxjb21wb25lbnRzXFxzZWxlY3RpemVcXHNlbGVjdGl6ZS5jb21wb25lbnQuc2NzcyIsIi4uL3NyYy9hcHAvY29tcG9uZW50cy9zZWxlY3RpemUvc2VsZWN0aXplLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQUE7QUNDRiIsImZpbGUiOiIuLi9zcmMvYXBwL2NvbXBvbmVudHMvc2VsZWN0aXplL3NlbGVjdGl6ZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zZWxlY3RvcntcclxuICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XHJcbn1cclxuIiwiLnNlbGVjdG9yIHtcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".selector {\n  align-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9zZWxlY3RpemUvc2VsZWN0aXplLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NlbGVjdGl6ZS9zZWxlY3RpemUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxxQkFBQTtBQ0NGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zZWxlY3RpemUvc2VsZWN0aXplLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNlbGVjdG9ye1xuICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XG59XG4iLCIuc2VsZWN0b3Ige1xuICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XG59Il19 */";
     /***/
   },
 
@@ -2383,7 +2383,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "button {\n  background-color: lightskyblue;\n  border-color: lightskyblue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvY29tcG9uZW50cy9zaWdudXAvQzpcXFVzZXJzXFxBZG1pblxcRGVza3RvcFxcMVxcVEFJX0xhYl81XFxibG9nXFxhcGkvLi5cXHNyY1xcYXBwXFxjb21wb25lbnRzXFxzaWdudXBcXHNpZ251cC5jb21wb25lbnQuc2NzcyIsIi4uL3NyYy9hcHAvY29tcG9uZW50cy9zaWdudXAvc2lnbnVwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsOEJBQUE7RUFDQSwwQkFBQTtBQ0NGIiwiZmlsZSI6Ii4uL3NyYy9hcHAvY29tcG9uZW50cy9zaWdudXAvc2lnbnVwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYnV0dG9ue1xyXG4gIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0c2t5Ymx1ZTtcclxuICBib3JkZXItY29sb3I6IGxpZ2h0c2t5Ymx1ZTtcclxufVxyXG4iLCJidXR0b24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHNreWJsdWU7XG4gIGJvcmRlci1jb2xvcjogbGlnaHRza3libHVlO1xufSJdfQ== */";
+    __webpack_exports__["default"] = "button {\n  background-color: lightskyblue;\n  border-color: lightskyblue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9zaWdudXAvc2lnbnVwLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NpZ251cC9zaWdudXAuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSw4QkFBQTtFQUNBLDBCQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NpZ251cC9zaWdudXAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJidXR0b257XG4gIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0c2t5Ymx1ZTtcbiAgYm9yZGVyLWNvbG9yOiBsaWdodHNreWJsdWU7XG59XG4iLCJidXR0b24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHNreWJsdWU7XG4gIGJvcmRlci1jb2xvcjogbGlnaHRza3libHVlO1xufSJdfQ== */";
     /***/
   },
 
@@ -2549,7 +2549,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9zcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LnNjc3MifQ== */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LnNjc3MifQ== */";
     /***/
   },
 
@@ -3137,7 +3137,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".search {\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAvc2hhcmVkL3NlYXJjaC1iYXIvQzpcXFVzZXJzXFxBZG1pblxcRGVza3RvcFxcMVxcVEFJX0xhYl81XFxibG9nXFxhcGkvLi5cXHNyY1xcYXBwXFxzaGFyZWRcXHNlYXJjaC1iYXJcXHNlYXJjaC1iYXIuY29tcG9uZW50LnNjc3MiLCIuLi9zcmMvYXBwL3NoYXJlZC9zZWFyY2gtYmFyL3NlYXJjaC1iYXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtBQ0NGIiwiZmlsZSI6Ii4uL3NyYy9hcHAvc2hhcmVkL3NlYXJjaC1iYXIvc2VhcmNoLWJhci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zZWFyY2h7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcbiIsIi5zZWFyY2gge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */";
+    __webpack_exports__["default"] = ".search {\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvc2hhcmVkL3NlYXJjaC1iYXIvc2VhcmNoLWJhci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvc2hhcmVkL3NlYXJjaC1iYXIvc2VhcmNoLWJhci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9zaGFyZWQvc2VhcmNoLWJhci9zZWFyY2gtYmFyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNlYXJjaHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuIiwiLnNlYXJjaCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn0iXX0= */";
     /***/
   },
 
@@ -3344,7 +3344,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\Admin\Desktop\1\TAI_Lab_5\blog\src\main.ts */
+    /*! /Users/admin/Downloads/TAI_Lab_5/src/main.ts */
     "./src/main.ts");
     /***/
   }
